@@ -3,7 +3,7 @@ body {
   background-color: rgb(202, 167, 122);
   color: darkgreen;
   display: flex;
-  min-height: 100vh;
+  min-height: 568px;
   justify-content: center;
   align-items: center;
   font-family: monospace;
@@ -54,4 +54,15 @@ body {
 
 .btn:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* @media (max-width: 352px) {
+  .rating {
+    margin: -5px;
+  }
+} */
+@media (min-width: 352px) and (max-width: 456px) {
+  .rating {
+    margin: -5px;
+  }
 }
