@@ -1,6 +1,8 @@
 const ratingEle = document.querySelectorAll(".rating");
 let btnEl = document.getElementById("btn");
 let containerEle = document.getElementById("container");
+let find_emoji = document.getElementById("forPrint");
+console.log(find_emoji);
 
 let selectRating = "";
 ratingEle.forEach((ratingE) => {
