@@ -65,4 +65,7 @@ body {
   .rating {
     margin: -5px;
   }
+  #forMosH1 {
+    font-size: 25px;
+  }
 }
